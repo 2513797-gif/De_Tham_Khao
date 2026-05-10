@@ -1,0 +1,4 @@
+Nguyen Van A,30,Ha Noi,20000000,QL001,Quan Ly,Nhan Su
+Tran Thi B,25,Da Lat,15000000,QL002,Pho Phong,IT
+Le Van C,40,Da Nang,25000000,QL003,Giam Doc,Kinh Doanh
+Pham Thi D,28,Ho Chi Minh,18000000,QL004,Truong Nhom,Marketing
