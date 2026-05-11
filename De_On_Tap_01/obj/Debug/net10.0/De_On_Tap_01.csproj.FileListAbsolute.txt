@@ -12,3 +12,4 @@ C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_01\obj\Debug\net10.0\refint
 C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_01\obj\Debug\net10.0\De_On_Tap_01.pdb
 C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_01\obj\Debug\net10.0\De_On_Tap_01.genruntimeconfig.cache
 C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_01\obj\Debug\net10.0\ref\De_On_Tap_01.dll
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_01\obj\Debug\net10.0\De_On_Tap_01.sourcelink.json

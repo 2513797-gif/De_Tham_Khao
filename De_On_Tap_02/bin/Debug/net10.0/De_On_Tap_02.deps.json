@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "De_On_Tap_02/1.0.0": {
+        "runtime": {
+          "De_On_Tap_02.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "De_On_Tap_02/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\bin\Debug\net10.0\De_On_Tap_02.exe
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\bin\Debug\net10.0\De_On_Tap_02.deps.json
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\bin\Debug\net10.0\De_On_Tap_02.runtimeconfig.json
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\bin\Debug\net10.0\De_On_Tap_02.dll
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\bin\Debug\net10.0\De_On_Tap_02.pdb
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\De_On_Tap_02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\De_On_Tap_02.AssemblyInfoInputs.cache
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\De_On_Tap_02.AssemblyInfo.cs
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\De_On_Tap_02.csproj.CoreCompileInputs.cache
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\De_On_Tap_02.sourcelink.json
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\De_On_Tap_02.dll
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\refint\De_On_Tap_02.dll
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\De_On_Tap_02.pdb
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\De_On_Tap_02.genruntimeconfig.cache
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_On_Tap_02\obj\Debug\net10.0\ref\De_On_Tap_02.dll

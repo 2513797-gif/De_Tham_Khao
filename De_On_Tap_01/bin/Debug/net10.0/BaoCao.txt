@@ -1,0 +1,192 @@
+Ten: Nguyen Van A        
+Tuoi: 30
+Dia chi: Ha Noi
+Luong: 20000000
+Ma nhan vien: QL001
+Vi tri: Quan Ly
+Phong: Nhan Su
+===============================
+Ten: Tran Thi B          
+Tuoi: 25
+Dia chi: Da Lat
+Luong: 15000000
+Ma nhan vien: QL002
+Vi tri: Pho Phong
+Phong: IT
+===============================
+Ten: Le Van C            
+Tuoi: 40
+Dia chi: Da Nang
+Luong: 25000000
+Ma nhan vien: QL003
+Vi tri: Giam Doc
+Phong: Kinh Doanh
+===============================
+Ten: Pham Thi D          
+Tuoi: 28
+Dia chi: Ho Chi Minh
+Luong: 18000000
+Ma nhan vien: QL004
+Vi tri: Truong Nhom
+Phong: Marketing
+===============================
+Ten: Hoang Van E         
+Tuoi: 47
+Dia chi: Hai Phong
+Luong: 40000000
+Ma nhan vien: QL005
+Vi tri: Truong phong
+Phong: Ke toan
+===============================
+Ten: Nguyen Thi F        
+Tuoi: 42
+Dia chi: Nha Trang
+Luong: 18000000
+Ma nhan vien: QL006
+Vi tri: Ke toan
+Phong: IT
+===============================
+Ten: Dang Van G          
+Tuoi: 38
+Dia chi: Can Tho
+Luong: 13000000
+Ma nhan vien: QL007
+Vi tri: Ke toan
+Phong: IT
+===============================
+Ten: Bui Thi H           
+Tuoi: 31
+Dia chi: Hai Phong
+Luong: 29000000
+Ma nhan vien: QL008
+Vi tri: Truong phong
+Phong: San xuat
+===============================
+Ten: Vu Hoang I          
+Tuoi: 36
+Dia chi: Hue
+Luong: 16000000
+Ma nhan vien: QL009
+Vi tri: Ky su
+Phong: Nhan su
+===============================
+Ten: Tran Quang J        
+Tuoi: 29
+Dia chi: Hai Phong
+Luong: 40000000
+Ma nhan vien: QL010
+Vi tri: Nhan vien
+Phong: Ky thuat
+===============================
+Ten: Ly Thi K            
+Tuoi: 37
+Dia chi: Ha Noi
+Luong: 20000000
+Ma nhan vien: QL011
+Vi tri: Ky su
+Phong: Marketing
+===============================
+Ten: Ngo Van L           
+Tuoi: 28
+Dia chi: Can Tho
+Luong: 34000000
+Ma nhan vien: QL012
+Vi tri: Truong phong
+Phong: Ke toan
+===============================
+Ten: Doan Thi M          
+Tuoi: 25
+Dia chi: Ha Noi
+Luong: 12000000
+Ma nhan vien: QL013
+Vi tri: Tro ly
+Phong: Ky thuat
+===============================
+Ten: Trinh Van N         
+Tuoi: 49
+Dia chi: Da Lat
+Luong: 36000000
+Ma nhan vien: QL014
+Vi tri: Ke toan
+Phong: Ke toan
+===============================
+Ten: Phan Thi O          
+Tuoi: 25
+Dia chi: Da Lat
+Luong: 23000000
+Ma nhan vien: QL015
+Vi tri: Tro ly
+Phong: Marketing
+===============================
+Ten: Mai Van P           
+Tuoi: 30
+Dia chi: Da Nang
+Luong: 37000000
+Ma nhan vien: QL016
+Vi tri: Tro ly
+Phong: San xuat
+===============================
+Ten: Vuong Thi Q         
+Tuoi: 31
+Dia chi: Hai Phong
+Luong: 40000000
+Ma nhan vien: QL017
+Vi tri: Tro ly
+Phong: IT
+===============================
+Ten: Dinh Van R          
+Tuoi: 47
+Dia chi: Can Tho
+Luong: 43000000
+Ma nhan vien: QL018
+Vi tri: Truong phong
+Phong: Kinh doanh
+===============================
+Ten: Lam Thi S           
+Tuoi: 46
+Dia chi: Can Tho
+Luong: 30000000
+Ma nhan vien: QL019
+Vi tri: Ke toan
+Phong: Ky thuat
+===============================
+Ten: Ho Van T            
+Tuoi: 42
+Dia chi: Can Tho
+Luong: 40000000
+Ma nhan vien: QL020
+Vi tri: Chuyen vien
+Phong: San xuat
+===============================
+Ten: Kieu Thi U          
+Tuoi: 44
+Dia chi: Da Nang
+Luong: 28000000
+Ma nhan vien: QL021
+Vi tri: Chuyen vien
+Phong: IT
+===============================
+Ten: Phung Van V         
+Tuoi: 44
+Dia chi: Ha Noi
+Luong: 23000000
+Ma nhan vien: QL022
+Vi tri: Ky su
+Phong: Nhan su
+===============================
+Ten: Ta Thi X            
+Tuoi: 27
+Dia chi: Ho Chi Minh
+Luong: 23000000
+Ma nhan vien: QL023
+Vi tri: Chuyen vien
+Phong: Kinh doanh
+===============================
+Ten: Nong Van Y          
+Tuoi: 31
+Dia chi: Da Nang
+Luong: 26000000
+Ma nhan vien: QL024
+Vi tri: Tro ly
+Phong: Kinh doanh
+===============================

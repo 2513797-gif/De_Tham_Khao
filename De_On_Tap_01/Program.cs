@@ -17,29 +17,43 @@ namespace De_On_Tap_01
             TimKiem,
             sapXep,
             Xoa,
-            Sua
+            Sua,
+            Luu,
 
         }
         static void Main(string[] args)
         {
             DanhSachNhanVien ds = new DanhSachNhanVien();
 
-            Console.WriteLine("=====================================");
-            Console.WriteLine("=     Menu Quan Ly Nhan Vien        =");
-            Console.WriteLine("=====================================");
-            Console.WriteLine("| 1. Nhap tu file                   |");
-            Console.WriteLine("| 2. Nhap thu cong                  |");
-            Console.WriteLine("| 3. Xuat danh sach                 |");
-            Console.WriteLine("| 4. Tim kiem                       |");
-            Console.WriteLine("| 5. Sap xep                        |");
-            Console.WriteLine("| 6. Xoa                            |");
-            Console.WriteLine("| 7. Sua                            |");
-            Console.WriteLine("| 0. Thoat                          |");
-            Console.WriteLine("=====================================");
+            //Console.WriteLine("=====================================");
+            //Console.WriteLine("=     Menu Quan Ly Nhan Vien        =");
+            //Console.WriteLine("=====================================");
+            //Console.WriteLine("| 1. Nhap tu file                   |");
+            //Console.WriteLine("| 2. Nhap thu cong                  |");
+            //Console.WriteLine("| 3. Xuat danh sach                 |");
+            //Console.WriteLine("| 4. Tim kiem                       |");
+            //Console.WriteLine("| 5. Sap xep                        |");
+            //Console.WriteLine("| 6. Xoa                            |");
+            //Console.WriteLine("| 7. Sua                            |");
+            //Console.WriteLine("| 0. Thoat                          |");
+            //Console.WriteLine("=====================================");
 
             Menu menu = new Menu();
             do
             {
+                Console.WriteLine("=====================================");
+                Console.WriteLine("=     Menu Quan Ly Nhan Vien        =");
+                Console.WriteLine("=====================================");
+                Console.WriteLine("| 1. Nhap tu file                   |");
+                Console.WriteLine("| 2. Nhap thu cong                  |");
+                Console.WriteLine("| 3. Xuat danh sach                 |");
+                Console.WriteLine("| 4. Tim kiem nhan vien             |");
+                Console.WriteLine("| 5. Sap xep nhan vien              |");
+                Console.WriteLine("| 6. Xoa nhan vien                  |");
+                Console.WriteLine("| 7. Sua nhan vien                  |");
+                Console.WriteLine("| 8. Luu danh sach nhan vien        |");
+                Console.WriteLine("| 0. Thoat                          |");
+                Console.WriteLine("=====================================");
                 Console.Write("Chon chuc nang: ");
                 menu = (Menu)int.Parse(Console.ReadLine());
                 switch(menu)
@@ -117,15 +131,19 @@ namespace De_On_Tap_01
                         {
                             case 1:
                                 ds.SapXepNhanVienTheoTen();
+                                ds.XuatDanhSach();
                                 break;
                             case 2:
                                 ds.SapXepNhanVienTheoTuoi();
+                                ds.XuatDanhSach();
                                 break;
                             case 3:
                                 ds.SapXepNhanVienTheoLuong();
+                                ds.XuatDanhSach();
                                 break;
                             case 4:
                                 ds.SapXepNhanVienTheoPhong();
+                                ds.XuatDanhSach();
                                 break;
                             case 0:
                                 break;
@@ -143,16 +161,36 @@ namespace De_On_Tap_01
                         Console.WriteLine("Chon chuc nang xoa: ");
                         int n = int.Parse(Console.ReadLine());
                         if (n == 1)
+                        {
                             ds.XoaNhanVienTheoTen();
+                            ds.XuatDanhSach();
+                        }
                         else if (n == 2)
+                        {
                             ds.XoaNhanVienTheoTuoi();
+                            ds.XuatDanhSach();
+                        }
                         else if (n == 3)
+                        {
                             ds.XoaNhanVienTheoPhong();
+                            ds.XuatDanhSach();
+                        }
                         else
                             break;
                         break;
                     case Menu.Sua:
                         ds.SuaNhanVien();
+                        break;
+                    case Menu.Luu:
+                        try
+                        {
+                            ds.Luufile();
+                            Console.WriteLine("Da luu danh sach nhan vien vao file!");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Loi! Luu file that bai!");
+                        }
                         break;
                 }
             }

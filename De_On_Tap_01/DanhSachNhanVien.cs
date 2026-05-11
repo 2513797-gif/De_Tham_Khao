@@ -224,5 +224,21 @@ namespace De_On_Tap_01
                 Console.WriteLine("Khong tim thay nhan vien co ten " + ten);
             }
         }
+        public void Luufile()
+        {
+            StreamWriter sw = new StreamWriter("BaoCao.txt");
+            foreach (var item in collection)
+            {
+                sw.WriteLine($"Ten: {item.Ten,-20}");
+                sw.WriteLine($"Tuoi: {item.Tuoi}");
+                sw.WriteLine($"Dia chi: {item.DiaChi}");
+                sw.WriteLine($"Luong: {((NhanVien)item).Luong}");
+                sw.WriteLine($"Ma nhan vien: {((NhanVien)item).MaNhanVien}");
+                sw.WriteLine($"Vi tri: {((NhanVien)item).ViTri}");
+                sw.WriteLine($"Phong: {((QuanLy)item).Phong}");
+                sw.WriteLine(("==============================="));
+            }
+            sw.Close();
+        }
     }
 }

@@ -2,3 +2,23 @@ Nguyen Van A,30,Ha Noi,20000000,QL001,Quan Ly,Nhan Su
 Tran Thi B,25,Da Lat,15000000,QL002,Pho Phong,IT
 Le Van C,40,Da Nang,25000000,QL003,Giam Doc,Kinh Doanh
 Pham Thi D,28,Ho Chi Minh,18000000,QL004,Truong Nhom,Marketing
+Hoang Van E,47,Hai Phong,40000000,QL005,Truong phong,Ke toan
+Nguyen Thi F,42,Nha Trang,18000000,QL006,Ke toan,IT
+Dang Van G,38,Can Tho,13000000,QL007,Ke toan,IT
+Bui Thi H,31,Hai Phong,29000000,QL008,Truong phong,San xuat
+Vu Hoang I,36,Hue,16000000,QL009,Ky su,Nhan su
+Tran Quang J,29,Hai Phong,40000000,QL010,Nhan vien,Ky thuat
+Ly Thi K,37,Ha Noi,20000000,QL011,Ky su,Marketing
+Ngo Van L,28,Can Tho,34000000,QL012,Truong phong,Ke toan
+Doan Thi M,25,Ha Noi,12000000,QL013,Tro ly,Ky thuat
+Trinh Van N,49,Da Lat,36000000,QL014,Ke toan,Ke toan
+Phan Thi O,25,Da Lat,23000000,QL015,Tro ly,Marketing
+Mai Van P,30,Da Nang,37000000,QL016,Tro ly,San xuat
+Vuong Thi Q,31,Hai Phong,40000000,QL017,Tro ly,IT
+Dinh Van R,47,Can Tho,43000000,QL018,Truong phong,Kinh doanh
+Lam Thi S,46,Can Tho,30000000,QL019,Ke toan,Ky thuat
+Ho Van T,42,Can Tho,40000000,QL020,Chuyen vien,San xuat
+Kieu Thi U,44,Da Nang,28000000,QL021,Chuyen vien,IT
+Phung Van V,44,Ha Noi,23000000,QL022,Ky su,Nhan su
+Ta Thi X,27,Ho Chi Minh,23000000,QL023,Chuyen vien,Kinh doanh
+Nong Van Y,31,Da Nang,26000000,QL024,Tro ly,Kinh doanh
