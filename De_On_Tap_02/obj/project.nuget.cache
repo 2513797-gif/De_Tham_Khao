@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "Fd9aW6fEqfc=",
+  "dgSpecHash": "UDr+Zwv/mMY=",
   "success": true,
   "projectFilePath": "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_On_Tap_02\\De_On_Tap_02.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\VANSINH\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'EntityFramework 6.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_On_Tap_02\\De_On_Tap_02.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_On_Tap_02\\De_On_Tap_02.csproj",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

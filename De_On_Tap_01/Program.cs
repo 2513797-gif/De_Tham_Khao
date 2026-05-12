@@ -179,7 +179,21 @@ namespace De_On_Tap_01
                             break;
                         break;
                     case Menu.Sua:
-                        ds.SuaNhanVien();
+                        Console.WriteLine("  Menu Chuc Nang Sua");
+                        Console.WriteLine("1: Sua ten nhan vien ");
+                        Console.WriteLine("2: Sua luong nhan vien");
+                        Console.WriteLine("3: Sua phong nhan vien");
+                        Console.WriteLine("0: Thoat");
+                        Console.Write("Chon chuc nang sua: ");
+                        int chon1 = int.Parse(Console.ReadLine());
+                        if (chon1 == 1)
+                            ds.SuaTenNhanVienTheoMa();
+                        else if(chon1 == 2)
+                            ds.SuaLuongNhanVienTheoMa();
+                        else if(chon1 == 3)
+                            ds.SuaPhongNhanVienTheoMa();
+                        else
+                            Console.WriteLine("LOI! khong hop le!");
                         break;
                     case Menu.Luu:
                         try

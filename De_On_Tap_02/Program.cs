@@ -30,7 +30,7 @@ namespace De_On_Tap_02
             Console.WriteLine("4: Tim Kiem nhan vien theo yeu cau");
             Console.WriteLine("5: Sap xep nhan vien theo yeu cau");
             Console.WriteLine("6: Xoa nhan vien theo yeu cau");
-            Console.WriteLine("7: Sua nhan vien");
+            Console.WriteLine("7: Sua nhan vien theo yeu cau");
             Console.WriteLine("8: Luu danh sach nhan vien vao file");
             Console.WriteLine("0: Thoat");
             Menu Chose = new Menu();
@@ -58,30 +58,95 @@ namespace De_On_Tap_02
                         ds.XuatDanhSach();
                         break;
                     case Menu.TimKiem:
-                        ds.TimKiemNhanVienTheoPhong();
+                        Console.WriteLine("  Chon Chuc Nang Tim Kiem");
+                        Console.WriteLine("1: Tim kiem nhan vien theo ten");
+                        Console.WriteLine("2: Tim kiem nhan vien theo phong");
+                        Console.WriteLine("3: Tim kiem nhan vien theo ma");
+                        Console.WriteLine("0: Thoat");
+                        Console.Write("Chon chuc nang: ");
+                        int chose1 = int.Parse(Console.ReadLine());
+                        if (chose1 == 1)
+                        {
+                            ds.TimKiemNhanVienTheoTen();
+                        }
+                        else if (chose1 == 2)
+                        {
+                            ds.TimKiemNhanVienTheoPhong();
+                        }
+                        else if (chose1 == 3)
+                        {
+                            ds.TimKiemNhanVienTheoMa();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Chuc nang khong hop le!");
+                            break;
+                        }
                         break;
                     case Menu.SapXep:
-                        ds.SapXepNhanVienTheoPhong();
+                        Console.WriteLine("  Chon Chuc Nang Sap Xep");
+                        Console.WriteLine("1: Sap xep nhan vien theo ten");
+                        Console.WriteLine("2: Sap xep nhan vien theo phong");
+                        Console.WriteLine("0: Thoat");
+                        Console.Write("Chon chuc nang: ");
+                        int chose2 = int.Parse(Console.ReadLine());
+                        if (chose2 == 1)
+                        {
+                            ds.SapXepNhanVienTheoTen();
+                        }
+                        else if (chose2 == 2)
+                        {
+                            ds.SapXepNhanVienTheoPhong();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Chuc nang khong hop le!");
+                            break;
+                        }
                         break;
                     case Menu.Xoa:
-                        ds.XoaTheoPhong();
+                        Console.WriteLine("  Chon Chuc Nang Xoa");
+                        Console.WriteLine("1: Xoa nhan vien theo ma");
+                        Console.WriteLine("2: Xoa nhan vien theo ten");
+                        Console.WriteLine("3: Xoa nhan vien theo phong");
+                        Console.WriteLine("0: Thoat");
+                        Console.Write("Chon chuc nang: ");
+                        int chose3 = int.Parse(Console.ReadLine());
+                        if (chose3 == 1)
+                        {
+                            ds.XoaNhanVienTheoMa();
+                        }
+                        else if (chose3 == 2)
+                        {
+                            ds.XoaNhanVienTheoTen();
+                        }
+                        else if (chose3 == 3)
+                        {
+                            ds.XoaNhanVienTheoPhong();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Chuc nang khong hop le!");
+                            break;
+                        }
                         break;
                     case Menu.Sua:
                         Console.WriteLine("  Chon Chuc Nang Sua");
                         Console.WriteLine("1: Sua ten nhan vien theo ma");
-                        Console.WriteLine("2: Sua ho nhan vien theo ma");
+                        Console.WriteLine("2: Sua ho ten nhan vien theo ma");
                         Console.WriteLine("3: Sua phong nhan vien theo ma");
+                        Console.WriteLine("0: Thoat");
                         Console.Write("Chon chuc nang: ");
                         int chose = int.Parse(Console.ReadLine());
-                        if(chose == 1)
+                        if (chose == 1)
                         {
                             ds.SuaTenNhanVien();
                         }
-                        else if(chose == 2)
+                        else if (chose == 2)
                         {
-                            ds.SuaHoNhanVien();
+                            ds.SuaHoTenNhanVien();
                         }
-                        else if(chose == 3)
+                        else if (chose == 3)
                         {
                             ds.SuaPhongNhanVien();
                         }

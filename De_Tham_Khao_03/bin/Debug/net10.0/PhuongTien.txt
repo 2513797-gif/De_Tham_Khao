@@ -1,0 +1,30 @@
+Thuyen,Tau Du Lich Ha Long,20,400,60000,2019,QuangNinhTourist
+XeHoi,Ford Ranger,70,30,85000,2018,Ford
+TauNgam,Astute Class,55,9000,50000,2018,BAESystems
+ThuyPhiCo,ShinMaywa US-2,300,1500,40000,2020,ShinMaywa
+XeHoi,VinFast VF8,120,80,2000,2024,VinFast
+Thuyen,Pha Cat Lai,10,300,500000,2005,SGTransport
+TauNgam,Kilo 636 HQ182,40,3000,80000,2014,Admiralty
+XeHoi,Kia Seltos,55,42,12000,2023,Kia
+Thuyen,Canoe Yamaha 242,40,100,3000,2022,Yamaha
+ThuyPhiCo,DHC-6 Twin Otter,220,800,120000,2015,DeHavilland
+XeHoi,Audi A4,85,25,60000,2019,Audi
+Thuyen,Tau Cho Hang SG,25,5000,300000,2010,HuyHoang
+TauNgam,Borei Class,52,9500,30000,2021,Sevmash
+XeHoi,Toyota Vios,60,45.5,15000,2021,Toyota
+ThuyPhiCo,Beriev Be-200,350,2000,15000,2022,Beriev
+Thuyen,Thuyen Buom Hanse,20,50,15000,2018,Hanse
+XeHoi,BMW 320i,100,60,1000,2025,BMW
+TauNgam,Los Angeles Class,50,8000,350000,1998,NewportNews
+Thuyen,Tau Cao Toc PQ,65,800,45000,2023,PhuQuocExpress
+ThuyPhiCo,Cessna 208 Caravan,250,600,85000,2018,Cessna
+XeHoi,Honda Civic,80,50,5000,2023,Honda
+Thuyen,Tau Ca Vung Tau,15,500,120000,2015,Vinashin
+XeHoi,Mercedes C300,90,55,8000,2024,Mercedes
+TauNgam,Ohio Class SSBN,45,9999,200000,2008,GeneralDynamics
+Thuyen,Du Thuyen Sunseeker,50,1500,5000,2024,Sunseeker
+ThuyPhiCo,Grumman Mallard,200,400,250000,1995,Grumman
+XeHoi,Mazda 3,65,40,25000,2022,Mazda
+Thuyen,Canoe Honda,35,80,4000,2020,Honda
+XeHoi,Hyundai Accent,60,35,45000,2020,Hyundai
+Thuyen,Thuyen Cuu Ho 01,45,200,8000,2021,HaiQuan

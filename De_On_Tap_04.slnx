@@ -2,4 +2,6 @@
   <Project Path="De_On_Tap_01/De_On_Tap_01.csproj" />
   <Project Path="De_On_Tap_02/De_On_Tap_02.csproj" Id="7c0b56e0-831e-4541-8974-b8d443d7cafa" />
   <Project Path="De_On_Tap_04/De_On_Tap_04.csproj" />
+  <Project Path="De_Tham_Khao_03/De_Tham_Khao_03.csproj" Id="bb1caba8-5e19-420c-a858-5f9c990c2077" />
+  <Project Path="De_Thi_1/De_Thi_1.csproj" Id="838a46db-416e-498f-a685-291651ceae71" />
 </Solution>

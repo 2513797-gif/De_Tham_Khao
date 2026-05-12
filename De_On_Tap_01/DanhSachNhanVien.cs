@@ -195,33 +195,87 @@ namespace De_On_Tap_01
             Console.WriteLine($"Da xoa nhan vien co phong: {phong}");
         }
 
-        public void SuaNhanVien()
+        //public void SuaNhanVien()
+        //{
+        //    Console.WriteLine("Nhap ten nhan vien can sua: ");
+        //    string ten = Console.ReadLine();
+        //    var nv = collection.Find(x => x.Ten == ten);
+        //    if (nv != null)
+        //    {
+        //        Console.WriteLine("Nhap thong tin moi: ");
+        //        Console.WriteLine("Ten: ");
+        //        nv.Ten = Console.ReadLine();
+        //        Console.WriteLine("Tuoi: ");
+        //        nv.Tuoi = int.Parse(Console.ReadLine());
+        //        Console.WriteLine("Dia chi: ");
+        //        nv.DiaChi = Console.ReadLine();
+        //        Console.WriteLine("Luong: ");
+        //        ((NhanVien)nv).Luong = decimal.Parse(Console.ReadLine());
+        //        Console.WriteLine("Ma nhan vien: ");
+        //        ((NhanVien)nv).MaNhanVien = Console.ReadLine();
+        //        Console.WriteLine("Vi tri: ");
+        //        ((NhanVien)nv).ViTri = Console.ReadLine();
+        //        Console.WriteLine("Phong: ");
+        //        ((QuanLy)nv).Phong = Console.ReadLine();
+        //        Console.WriteLine("Da sua thong tin nhan vien co ten " + ten);
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Khong tim thay nhan vien co ten " + ten);
+        //    }
+        //}
+        public void SuaTenNhanVienTheoMa()
         {
-            Console.WriteLine("Nhap ten nhan vien can sua: ");
-            string ten = Console.ReadLine();
-            var nv = collection.Find(x => x.Ten == ten);
-            if (nv != null)
+            Console.Write("Nhap ma nhan vien can sua: ");
+            string maNhanVien = Console.ReadLine();
+            var nv = collection.Find(x => ((NhanVien)x).MaNhanVien  == maNhanVien);
+            if(nv != null)
             {
-                Console.WriteLine("Nhap thong tin moi: ");
-                Console.WriteLine("Ten: ");
+                Console.WriteLine("Nhap Thong tin moi: ");
+                Console.Write("Moi nhap ten: ");
                 nv.Ten = Console.ReadLine();
-                Console.WriteLine("Tuoi: ");
-                nv.Tuoi = int.Parse(Console.ReadLine());
-                Console.WriteLine("Dia chi: ");
-                nv.DiaChi = Console.ReadLine();
-                Console.WriteLine("Luong: ");
-                ((NhanVien)nv).Luong = decimal.Parse(Console.ReadLine());
-                Console.WriteLine("Ma nhan vien: ");
-                ((NhanVien)nv).MaNhanVien = Console.ReadLine();
-                Console.WriteLine("Vi tri: ");
-                ((NhanVien)nv).ViTri = Console.ReadLine();
-                Console.WriteLine("Phong: ");
-                ((QuanLy)nv).Phong = Console.ReadLine();
-                Console.WriteLine("Da sua thong tin nhan vien co ten " + ten);
+                Console.WriteLine("Da sua thong tin nhan vien co ma " +  maNhanVien);
+                nv.HienThiThongTin();
             }
             else
             {
-                Console.WriteLine("Khong tim thay nhan vien co ten " + ten);
+                Console.WriteLine("Khong tim thay nhan vien co ma Nhan vien: " + maNhanVien);
+            }
+        }
+        public void SuaLuongNhanVienTheoMa()
+        {
+            Console.Write("Nhap ma nhan vien can sua: ");
+            string maNhanVien = Console.ReadLine();
+            var nv = collection.Find(x => ((NhanVien)x).MaNhanVien == maNhanVien);
+            if(nv != null)
+            {
+                Console.WriteLine("Nhap thong tin moi ");
+                Console.Write("Moi nhap luong moi: ");
+                ((NhanVien)nv).Luong = int.Parse(Console.ReadLine());
+                Console.WriteLine("Da sua nhan vien co ma " + maNhanVien);
+                nv.HienThiThongTin();
+            }
+            else
+            {
+                Console.WriteLine("Khong tim thay nhan vien co ma " + maNhanVien);
+            }
+        }
+        public void SuaPhongNhanVienTheoMa()
+        {
+            Console.Write("Nhan ma nhan vien can sua: ");
+            string maNhanVien = Console.ReadLine();
+            var nv = collection.Find(x => ((NhanVien)x).MaNhanVien == maNhanVien);
+            if (nv != null)
+            {
+                Console.WriteLine("Nhap thong tin moi ");
+                Console.Write("Nhap phong moi: ");
+                ((QuanLy)nv).Phong = Console.ReadLine();
+                Console.WriteLine("Da sua nhan vien co ma " + maNhanVien);
+                nv.HienThiThongTin();
+            }
+            else
+            {
+                Console.WriteLine("Khong tim thay nhan vien co ma " + maNhanVien);
             }
         }
         public void Luufile()
@@ -240,5 +294,6 @@ namespace De_On_Tap_01
             }
             sw.Close();
         }
+
     }
 }
