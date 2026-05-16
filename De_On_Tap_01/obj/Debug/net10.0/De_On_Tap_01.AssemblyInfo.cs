@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("De_On_Tap_01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca8ceadc6aab654bd33a8c64fa1f0a8119c98876")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81b0c7d7943bd79b2c7d883fbdd7a2300ebcfafc")]
 [assembly: System.Reflection.AssemblyProductAttribute("De_On_Tap_01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("De_On_Tap_01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
