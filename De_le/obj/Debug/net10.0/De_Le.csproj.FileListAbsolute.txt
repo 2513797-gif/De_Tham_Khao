@@ -1,0 +1,15 @@
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\bin\Debug\net10.0\De_Le.exe
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\bin\Debug\net10.0\De_Le.deps.json
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\bin\Debug\net10.0\De_Le.runtimeconfig.json
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\bin\Debug\net10.0\De_Le.dll
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\bin\Debug\net10.0\De_Le.pdb
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\De_Le.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\De_Le.AssemblyInfoInputs.cache
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\De_Le.AssemblyInfo.cs
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\De_Le.csproj.CoreCompileInputs.cache
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\De_Le.sourcelink.json
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\De_Le.dll
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\refint\De_Le.dll
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\De_Le.pdb
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\De_Le.genruntimeconfig.cache
+C:\Users\VANSINH\source\repos\De_On_Tap_04\De_Le\obj\Debug\net10.0\ref\De_Le.dll

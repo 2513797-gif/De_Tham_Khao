@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_le\\De_le.csproj": {}
+    "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_Le\\De_Le.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_le\\De_le.csproj": {
+    "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_Le\\De_Le.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_le\\De_le.csproj",
-        "projectName": "De_le",
-        "projectPath": "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_le\\De_le.csproj",
+        "projectUniqueName": "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_Le\\De_Le.csproj",
+        "projectName": "De_Le",
+        "projectPath": "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_Le\\De_Le.csproj",
         "packagesPath": "C:\\Users\\VANSINH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_le\\obj\\",
+        "outputPath": "C:\\Users\\VANSINH\\source\\repos\\De_On_Tap_04\\De_Le\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
